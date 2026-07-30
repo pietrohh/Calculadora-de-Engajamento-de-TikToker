@@ -1,0 +1,28 @@
+# CONTEXT (Contexto)
+Uma marca precisa prever se o vídeo de um influenciador no TikTok vai viralizar ou flopar com base na categoria do conteúdo e na quantidade de hashtags utilizadas.
+
+# OBJECTIVE (Objetivo)
+Criar uma aplicação web interativa em Python usando a biblioteca Streamlit e um modelo no TensorFlow/Keras.
+A aplicação deve:
+1. Permitir que o usuário selecione a categoria do vídeo através de uma caixa de seleção (`st.selectbox`).
+2. Permitir que o usuário informe a quantidade de hashtags (`st.slider` ou `st.number_input`).
+3. Fazer o pré-processamento/tratamento desses dados e passá-los por um modelo TensorFlow pré-treinado (ou criar uma lógica simples de modelo supervisionado para predição de engajamento/alcance).
+4. Exibir um alerta visual dinâmico (como `st.success` para "Viral" e `st.error` ou `st.warning` para "Flopado") indicando a previsão do post.
+
+# STYLE (Estilo)
+Desenvolvedor Senior em Python, especialista em Data Science, Machine Learning (TensorFlow) e aplicações web com Streamlit. O código deve ser limpo, modular, bem comentado e pronto para ser executado.
+
+# TONE (Tom)
+Didático, prático e focado na resolução clara do problema.
+
+# AUDIENCE (Público-alvo)
+Alunos ou profissionais de programação/Data Science que estão aprendendo a integrar modelos de Inteligência Artificial com interfaces interativas no Streamlit.
+
+# RESPONSE (Formato da Resposta)
+1. Código Python completo em um único bloco contendo:
+   - Importação das bibliotecas (Streamlit, TensorFlow/Keras, NumPy, Pandas, etc.).
+   - Criação/carregamento do modelo TensorFlow e tratamento adequado dos dados de entrada (categoria codificada e número de hashtags).
+   - Componentes visuais do Streamlit (Selectbox para categoria, Input/Slider para hashtags e botão de previsão).
+   - Lógica de exibição dos alertas visuais ("Viral" ou "Flopado").
+2. Uma breve explicação passo a passo de como rodar a aplicação localmente (`streamlit run app.py`).
+"""
